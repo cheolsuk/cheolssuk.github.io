@@ -29,16 +29,17 @@
         table {
         	width: 1000px;
         	height: 1800px;
-        	margin-left: 30px; 
+        	margin:auto; 
         	font-family: '굴림';
         }
         table th{
         	color : white;
             font-size: 18px;
             text-align: center;
+            border-top: solid 4px #dddd;
         }
         #gray{
-        	background-color: gray;
+        	background-color: #545454;
         	height: 40px;
         }
         #w{
@@ -62,14 +63,14 @@
 
         }
         #black{
-        	background-color: #545454;
+        	background-color: #dddd;
         	height: 40px;
         }
         #t{
         	margin-bottom: 40px; 
         }
          	footer{
-			width: 2000px;
+			width: 3000px;
 			border-top:solid 5px gray;
 			margin-top:20px;	
 		}
@@ -80,21 +81,30 @@
 			color:white;
 
 		}
+		 #page{
+		   	margin:auto;
+		   }
 		h3{
 			float: left;
 			font-family:"Bernard MT Condensed Regular" ;
 		}
+		   .clear{
+		   	clear: both;
+		   }
 	</style>
 </head>
 <body>
+	<div id='page'>
 	<h3>
 		CLASS
 	</h3>
 <div id = home>
 	 <a href='index.html'><img src = "img/home.jpg" width=100></a>
 	</div>
-
+</div>
+<div class='clear'></div>
 <table style="margin-left: auto; margin-right: auto;">
+<td height="30"></td><td></td>
 	<tr id = 'gray'>
 		<th width="400">WARRIOR</th>
 		<th width="400">FIGHTER</th>
@@ -107,8 +117,11 @@
 		내공에너지로 능력을 극대화 시키는 기공사, 기동성이 좋고 화려한 콤보 공격이 이룸인 배틀마스터, 묵직한 한 방의 파괴력으로 적들을 몰아치는 인파이터로 전직할 수 있습니다.</th>
 	</tr>
 	<tr id = 'black'>
-	<th id='t'>디스트로이어 | 워로드 | 버서커</th>		
-	<th id='t'>배틀마스터 | 인파이터 | 기공사</th>			
+	<th id='t' style = "color:black;">디스트로이어 | 워로드 | 버서커</th>		
+	<th id='t'style = "color:black;">배틀마스터 | 인파이터 | 기공사</th>			
+</tr>
+<tr>
+	<th height="30"></th><th></th>
 </tr>
 <tr id=gray>
 		<th width="400">HUNTER</th>
@@ -121,8 +134,8 @@
 			<th id='m'>마법사는 신비로운 마법 스킬로<br>   적들을 공격하는 원거리 클래스입니다. <br>  다양한 정령과 함께 강력한 마법으로 적을 제압하는 서머너, 화려한 마법과 신비로운 카드를 사용하며 현란한 움직음을 가진 아르카나, 성스러운 하프로 적을 공격하고, 파티원을 치유하거나 서포트 하는 바드로 전직할 수 있습니다.</th>
 </tr>
 <tr id = 'black'>
-	<th>데빌헌터 | 블래스터 | 호크아이</th>
-	<th>바드 | 서머너 | 아르카나</th>
+	<th style = "color:black;">데빌헌터 | 블래스터 | 호크아이</th>
+	<th style = "color:black;">바드 | 서머너 | 아르카나</th>
 </tr>
 
 
